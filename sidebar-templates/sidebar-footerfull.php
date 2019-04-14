@@ -17,7 +17,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 	<!-- ******************* The Footer Full-width Widget Area ******************* -->
 
-	<div class="wrapper" id="wrapper-footer-full">
+	<div class="wrapper navbar-dark bg-primary" id="wrapper-footer-full">
 
 		<div class="<?php echo esc_attr( $container ); ?>" id="footer-full-content" tabindex="-1">
 

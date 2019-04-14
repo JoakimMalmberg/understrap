@@ -1,1 +1,35 @@
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+
+@import "usps";
+@import "portfolio";
+
+body {
+	background-color: rgb(89, 133, 191);
+	color: white;
+	a {
+		color: white;
+		font-weight: bold;
+	}
+}
+
+.footer-widget {
+	color: white;
+	background-color: rgb(32, 59, 140);
+
+	a {
+		color: white;
+		text-decoration: none;
+	}
+	
+}
+.wrapper-footer-full{
+	background-color: rgb(89, 133, 191)!important;
+}
+
+#wrapper-static-hero.wrapper {
+	background-color: rgb(32, 59, 140)!important;
+}
+
+.textwidget.custom-html-widget{
+	color: $primary;
+}

@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying all pages.
+ * The template for displaying front pages.
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -20,6 +20,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 ?>
 
+<?php get_template_part( 'global-templates/hero' ); ?>
+
+<?php get_template_part( 'global-templates/usp' ); ?>
+
+<?php get_template_part( 'global-templates/portfolio' ); ?>
+
+
 <div class="wrapper" id="page-wrapper">
 
 	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
@@ -30,7 +37,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 				<?php while ( have_posts() ) : the_post(); ?>
 
-					<?php get_template_part( 'loop-templates/content', 'page' ); ?>
+					<?php get_template_part( 'loop-templates/content', 'front-page' ); ?>
 
 				<?php endwhile; // end of the loop. ?>
 
