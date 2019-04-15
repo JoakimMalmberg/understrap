@@ -2,34 +2,16 @@
 
 @import "usps";
 @import "portfolio";
+@import "footer";
+@import "hero";
 
 body {
-	background-color: rgb(89, 133, 191);
-	color: white;
+	background-color: $himmelsbla;
+	color: $white;
 	a {
-		color: white;
+		color: $white;
 		font-weight: bold;
 	}
 }
 
-.footer-widget {
-	color: white;
-	background-color: rgb(32, 59, 140);
 
-	a {
-		color: white;
-		text-decoration: none;
-	}
-	
-}
-.wrapper-footer-full{
-	background-color: rgb(89, 133, 191)!important;
-}
-
-#wrapper-static-hero.wrapper {
-	background-color: rgb(32, 59, 140)!important;
-}
-
-.textwidget.custom-html-widget{
-	color: $primary;
-}
