@@ -4,10 +4,13 @@
 
 #wrapper-usps{
 	text-align: center;
-
+	
 	div.usp{
 		background-color: $primary;
 		padding: 5px;
+		border-radius: 20px;
+		box-shadow: 2px 2px;
+		
 		h1 {
 			font-size: 1.25rem;
 		}

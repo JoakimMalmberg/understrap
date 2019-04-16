@@ -1,9 +1,11 @@
 .wrapper-footer-full {
-	background-color: $himmelsbla !important;
+	background-color: $himmelsbla;
 }
 
 #wrapper-static-hero.wrapper {
-	background-color: $primary !important;
+	background-color: $primary;
+	border-radius: 20px;
+	padding-bottom: 60px;
 }
 
 .textwidget.custom-html-widget {

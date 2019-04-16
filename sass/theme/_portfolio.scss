@@ -5,8 +5,28 @@
 .portfolio-box{
 	width: 30rem;
 	margin: 30px;
+	border-radius: 20px;
+	box-shadow: 2px 2px;
+	a:hover{
+		color: $himmelsbla;
+	}
+	display: flex;
+	align-items: space-between;
 }
 
 small{
 	font-size: 0.1rem;
+}
+.col-md.content-area {
+	background-color: $primary;
+	padding: 10px;
+	border-radius: 20px;
+	box-shadow: 2px 2px;
+}
+
+.post-2.page.type-page.status-publish.hentry{
+	background-color: $primary;
+	padding: 10px;
+	border-radius: 20px;
+	box-shadow: 2px 2px;
 }

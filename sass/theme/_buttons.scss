@@ -1,0 +1,11 @@
+.btn-secondary {
+	background-color: $himmelsbla;
+	border-color: $white;
+	margin-bottom: 0;
+}
+
+.btn-secondary:hover {
+	background-color: $white;
+	border-color: $himmelsbla;
+	color: $himmelsbla;
+}
